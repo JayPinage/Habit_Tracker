@@ -14,10 +14,14 @@ class _Headmap extends State<Headmap>{
   Widget build(BuildContext context) {
 
     return HeatMapCalendar(
+      colorMode: ColorMode.opacity,
       
       
       colorsets:{
         1:const Color.fromARGB(255, 88, 187, 111)
-      } );
+      },
+       
+      
+      );
   }
 }
